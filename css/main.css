@@ -1,0 +1,49 @@
+.navigation li {
+    float: left;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    /* position: fixed; */
+    /* top: 0; */
+    width: 100%;
+}
+
+.navigation a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigation li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+.contactBtn a {
+    margin-right: 30px;
+    padding: 8px 18px;
+    border: 1px solid #204156;
+}
+
+.contactBtn a:active {
+    margin-top: 20rem;
+    position: relative;
+    bottom: 2px;
+}
+
+body {
+    /* background-image: url('https://content.codecademy.com/projects/make-a-website/lesson-3/moss6.jpg');
+    background-position: center top;
+    background-size: cover; */
+    margin: 0;
+}
