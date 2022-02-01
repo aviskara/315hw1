@@ -4,7 +4,7 @@
 <head>
     <title>Porjects</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="../css/project.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
 </head>
 
 <body>
@@ -22,47 +22,61 @@
             <!-- <div class="contactBtn"><a>Contact</a></div> -->
         </nav>
     </header>
-    <a class="projects">
+    <div class="projects">
         <a class="project-sound">
             <a class="project-title">
-                Using Convolutional Neural Networks to Detect Music Features<br>
+                Understanding Music through Visual Means<br>
             </a>
-            <a class="project-description">
-                During my time with AI4ALL I researched weather if certain aspects of music can be detected with a
-                convolutional neural network (CNN).<br>
-            </a>
+            <p class="project-description">
+                This project was part done during my time with AI4ALL. During the second semester of AI4ALL, we were
+                assigned with a mentor and were asked to explore an aspect of AI we were interested in. I have always
+                had a great interest in music, so I decided to explore whether it was possible for a convolutional
+                neural network to detect various distinct aspects of a song such as the genre or the tempo. Based on my
+                initial research, the whole idea in general seemed to be unique and only a few people have explored the
+                idea, so I believed it was worth something to investigate. Using this page as a guide, I began my
+                project.<br>
+                Before doing anything with the AI, I first had to collect all the training data. In order to make it
+                easy for the AI to tell the difference between genres and tempo, I decided to find 4 genres that were
+                distinct from each other and find 6 songs in three tempos of 120, 125, 130 bpm for each of those genres.
+                As for the genres I decided to use reggae, rap, rock, and electronic music. Although this sounded like a
+                great plan at the time, I quickly learned that as a general rule the tempo and genre are closely
+                correlated as a song's genre tends to limit its tempo and certain tempos are preferred over others. This
+                resulted in some songs in the sample to vary by +-1 bpm but at the time I simply proceeded with it.
+                Another issue was the lack of training data. This was fixed simply by splicing the song into random 6
+                second segments using this code as a basis until I had around 1000 sound files in total.<br>
+                In order to process the images to use in the neural network, I first had to convert all the sound files
+                into an image. As for representing music in a visual way, I decided to use a spectrogram. A spectrogram
+                is essentially a graph telling what frequencies are played at a certain time with time being on the
+                x-axis. Using the librosa library, the music files were easily converted into png files.
+                Prior to sending the images into the AI for training data, it was necessary to do some additional image
+                processing to get the best shot for the machine to make the correct connections. One of the key features
+                I noticed at the start were the distinct “L” shapes of the drums that could be seen throughout the
+                different genres. I believed that these distinct shapes were the key to determine the tempo, and with
+                later testing turns out this was correct, so a vertical filter was placed to isolate the vertical lines.
+                In the image silence was represented by blue and sound with red, the blue and green channels from the
+                images were removed to only show necessary data.<br>
+                Using this as a basis, I created my neural network and trained the model. The results were vastly better
+                than expected. I was able to achieve an 80% validation accuracy in tempo prediction and 94% in genre
+                prediction. Although the tempo prediction was not as accurate, it was expected as I was asking the
+                neural network to understand the concept of time using random lines from an image. Overall, I believe
+                this was a successful project and I have learned a lot about machine learning and would like to work on
+                machine learning projects.<br>
+                Although the documentation is minimal, here is a link to the code I used for the whole project.).<br>
+            </p>
         </a>
-    </a>
-    <a class="projects">
+    </div>
+    <div class="projects">
         <a class="project-art">
             <a class="project-title">
                 Art Using Style Transfer<br>
             </a>
-            <a class="project-description">
-                In this pro
-            </a>
+            <p class="project-description">
+                Currently, I am working on a neural style transfer project following the documentation on the tensorflow
+                website. Shown below are some of the results I was able to produce.
+            </p>
         </a>
-    </a>
-    <a class="projects">
-        <a class="project-animals">
-            <a class="project-title">
-                Data Visualization for Animal Shelter<br>
-            </a>
-            <a class="project-description">
+    </div>
 
-            </a>
-        </a>
-    </a>
-    <a class="projects">
-        <a class="project-discord">
-            <a class="project-title">
-                Discord Bot (Current Project)<br>
-            </a>
-            <a class="project-description">
-
-            </a>
-        </a>
-    </a>
 </body>
 
 </html>
