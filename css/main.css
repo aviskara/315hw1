@@ -1,0 +1,302 @@
+.navigation li {
+    float: left;
+}
+
+.navigation ul {
+    list-style-type: none;
+    opacity: 90%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navigation a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigation li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+.contactBtn a {
+    margin-right: 30px;
+    padding: 8px 18px;
+    border: 1px solid #204156;
+}
+
+.contactBtn a:active {
+    margin-top: 20rem;
+    position: relative;
+    bottom: 2px;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    background-color: #add8e6;
+}
+
+
+.bg-image {
+    background-image: url("../background.jpg");
+
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+
+    height: 100%;
+    opacity: 90%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-text {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+div {
+    display: block;
+}
+
+.aboutme {
+    color: #777;
+    background-color: #FFFFFB;
+    text-align: center;
+    padding: 50px, 80px;
+    margin: 0px;
+    width: 100%;
+    text-align: justify;
+    z-index: 1;
+    float: left;
+}
+
+.aboutme h2 {
+    letter-spacing: 5px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+
+.aboutme-content {
+    display: grid;
+    padding: 50px, 80px;
+    grid-template-columns: 300px 1fr;
+    gap: 1rem;
+    align-items: center;
+    max-width: 80%;
+    margin: 4rem;
+    margin-top: 1rem;
+    text-align: justify;
+    float: left;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+}
+
+.aboutme-content p {
+    font-size: 30px;
+}
+
+.profile-pic {
+    background-image: url("../profile.jpg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 200px;
+    height: 200px;
+
+}
+
+.bg-image2 {
+    background-image: url("../background2.jpg");
+
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+
+    position: relative;
+    min-height: 300px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 20px;
+    opacity: 90%;
+
+    float: left;
+}
+
+.skills {
+    color: #777;
+    background-color: #FFFFFB;
+    text-align: center;
+    padding: 50px, 80px;
+    margin: 0px;
+    padding-bottom: 50px;
+    width: 100%;
+    text-align: justify;
+    z-index: 1;
+    float: left;
+}
+
+.skills h2 {
+    letter-spacing: 5px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+
+.skills p {
+    width: 50%;
+    text-align: center;
+    padding: 50px, 80px;
+    margin: auto;
+
+    text-align: justify;
+    font-size: 20px;
+}
+
+.bg-image3 {
+    background-image: url("../background3.jpg");
+
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+
+    position: relative;
+    min-height: 200px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 20px;
+    opacity: 90%;
+
+    float: left;
+}
+
+.connect{
+    display: block;
+    height: 100px;
+    width: 100%;
+    background-color: #FFFFFB;
+
+
+    padding: 20px;
+    float: left;
+}
+
+.connect h2 {
+    letter-spacing: 5px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.fa {
+    color: #111;
+    background-color: #FFFFFB;
+    padding: 20px;
+    font-size: 40px;
+    width: 50px;
+    text-decoration: none;
+    margin: 0px;
+    float: left;
+}
+
+.projects {
+    
+    background-color: #FFFFFB;
+    text-align: center;
+    padding: 50px, 80px;
+    padding-top: 100px;
+    margin: 0px;
+    width: 100%;
+    text-align: justify;
+    z-index: 1;
+    float: left;
+}
+
+.project-title {
+    letter-spacing: 5px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.project-description{
+    color: #444;
+    display: grid;
+    padding: 50px, 80px;
+    grid-template-columns: 300px 1fr;
+    gap: 1rem;
+    align-items: center;
+    max-width: 80%;
+    margin: 4rem;
+    margin-top: 1rem;
+    text-align: justify;
+    float: left;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+}
+
+.resume{
+    margin-top: 45px;
+}
