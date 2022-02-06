@@ -50,7 +50,6 @@ html {
     background-color: #add8e6;
 }
 
-
 .bg-image {
     background-image: url("../background.jpg");
 
@@ -158,7 +157,8 @@ div {
     background-repeat: no-repeat;
     background-size: cover;
 
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     opacity: 90%;
 
     float: left;
@@ -214,7 +214,8 @@ div {
     background-repeat: no-repeat;
     background-size: cover;
 
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     opacity: 90%;
 
     float: left;
@@ -227,8 +228,13 @@ div {
     background-color: #FFFFFB;
 
 
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     float: left;
+}
+
+.connect a{
+    text-align: center;
 }
 
 .connect h2 {
@@ -246,9 +252,10 @@ div {
 .fa {
     color: #111;
     background-color: #FFFFFB;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-size: 40px;
-    width: 50px;
+    width: 20%;
     text-decoration: none;
     margin: 0px;
     float: left;
@@ -265,6 +272,7 @@ div {
     text-align: justify;
     z-index: 1;
     float: left;
+    color: #444;
 }
 
 .project-title {
@@ -282,6 +290,7 @@ div {
 .project-description{
     color: #444;
     display: grid;
+    font-size: 20px;
     padding: 50px, 80px;
     grid-template-columns: 300px 1fr;
     gap: 1rem;
@@ -297,6 +306,71 @@ div {
     align-items: center;
 }
 
+.bg-image4 {
+    background-image: url("../styletransfer.jpg");
+
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    opacity: 90%;
+
+    float: left;
+}
+
+.profile-sound {
+    background-image: url("../keras.png");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 200px;
+    height: 200px;
+
+}
+.profile-tensor {
+    background-image: url("../tensorflow.png");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 200px;
+    height: 200px;
+
+}
+.profile-animals {
+    background-image: url("../codeforgood.png");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 200px;
+    height: 200px;
+
+}
+.profile-redcross {
+    background-image: url("../redcross.png");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 200px;
+    height: 200px;
+
+}
 .resume{
     margin-top: 45px;
 }
