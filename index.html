@@ -4,9 +4,11 @@
 <head>
     <title>My Website</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script src="javascript.js"></script>
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link id="theme" rel="stylesheet" type="text/css" href="css/style2.css" />
 </head>
 
 <body>
@@ -14,10 +16,10 @@
         <nav class="navigation">
             <ul>
                 <li><a class="active" href="#home">Home</a></li>
-                <li><a href="html/projects.html">Projects</a></li>
-                <li><a href="html/qualifications.html">Resume</a></li>
-                <li><a href="html/service.html">Service</a></li>
-                <li style="float:right"><a href="html/contactMe.html">Contact Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="qualifications.html">Resume</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li class="toggletheme"><a onclick="toggleTheme()">Swap Styles</a></li>
             </ul>
         </nav>
     </header>
@@ -40,7 +42,8 @@
             <p>
                 Thank you for visiting my website! <br> I'm currently a junior at Texas A&M majoring in Computer
                 Engineering
-                with a minor in Cybersecurity and Mathematics. My main interest is in backend development. During my
+                with a minor in Cybersecurity and Mathematics. I am currently aiming to become a
+                backend developer. During my
                 free time I like to explore how machine learning can be used to create art.
             </p>
         </div>
