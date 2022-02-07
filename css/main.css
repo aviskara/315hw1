@@ -24,10 +24,7 @@
     font-family: "Helvetica Neue", "Arial", sans-serif;
 }
 
-.toggletheme{
-    float: right;
-    transform: translate(900%);
-}
+
 .navigation button {
     background-color: #333;
     display: block;
