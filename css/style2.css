@@ -22,7 +22,7 @@
 .navigation a {
     display: block;
     font-weight: bold;
-    color: #000;
+    color: white;
     padding: 8px 16px;
     text-decoration: none;
     font-family: "Helvetica Neue", "Arial", sans-serif;
@@ -34,7 +34,7 @@
     display: block;
     text-transform: uppercase;
     font-weight: bold;
-    color: #000;
+    color: #bdc1c6;
     letter-spacing: 2px;
     text-align: center;
     text-decoration: none;
@@ -67,7 +67,7 @@ body,
 html {
     height: 100%;
     margin: 0;
-    background-color: #ffffff;
+    background-color: #202124;
     
 }
 
@@ -111,8 +111,8 @@ div {
 
 .aboutme {
     /* background-image: url("../background4.jpg"); */
-    color: #777;
-    background-color: rgba(255, 255, 251);
+    color: #bdc1c6;
+    background-color: #202124;
     text-align: center;
     padding: 50px, 80px;
     padding-top: 100px;
@@ -128,7 +128,7 @@ div {
     letter-spacing: 5px;
     font-size: 30px;
     text-transform: uppercase;
-    color: #111;
+    color: #ede1e6;
     text-align: left;
     text-decoration: underline;
     margin-block-start: 1em;
@@ -192,8 +192,8 @@ div {
 }
 
 .skills {
-    color: #777;
-    background-color: rgba(255, 255, 251);
+    color: #bdc1c6;
+    background-color: #202124;
     text-align: center;
     padding: 50px, 80px;
     margin: 0px;
@@ -209,7 +209,7 @@ div {
     letter-spacing: 5px;
     font-size: 30px;
     text-transform: uppercase;
-    color: #111;
+    color: #ede1e6;
     text-align: left;
     text-decoration: underline;
     padding-top: 50px;
@@ -257,7 +257,7 @@ div {
     display: block;
     height: 100px;
     width: 100%;
-    background-color: rgba(255, 255, 251);
+    background-color: #202124;
 
 
     padding-top: 20px;
@@ -274,7 +274,7 @@ div {
     letter-spacing: 5px;
     font-size: 30px;
     text-transform: uppercase;
-    color: #111;
+    color: #ede1e6;
     text-align: center;
     text-decoration: underline;
     margin-block-start: 1em;
@@ -284,7 +284,7 @@ div {
 }
 
 .fa {
-    color: #111;
+    color: #bdc1c6;
     background-color: #FFFFFB;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -321,7 +321,7 @@ div {
 
 .projects {
 
-    background-color: #FFFFFB;
+    background-color: #202124;
     text-align: center;
     padding: 50px, 80px;
     padding-top: 100px;
@@ -330,7 +330,7 @@ div {
     text-align: justify;
     z-index: 1;
     float: left;
-    color: #444;
+    color: #bdc1c6
 }
 
 .project-title {
@@ -338,7 +338,7 @@ div {
     letter-spacing: 5px;
     font-size: 30px;
     text-transform: uppercase;
-    color: #111;
+    color: #ede1e6;
     text-align: left;
     
     margin-block-start: 1em;
